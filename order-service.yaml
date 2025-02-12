@@ -1,0 +1,10 @@
+OrderDatabase:
+  ConnectionString: "mongodb://localhost:27020"
+  DatabaseName: "Order"
+  BooksCollectionName: "Order"
+DatabaseName: "Order"
+Logging:
+    LogLevel:
+      Default: "Information"
+      Microsoft.AspNetCore: "Warning"
+AllowedHosts: "*"
